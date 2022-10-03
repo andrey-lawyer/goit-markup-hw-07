@@ -17,10 +17,10 @@
 <body>
   <!-- Шапка сайту -->
   <header class="page-header">
-    <div class="container">
+    <div class="container page-header__container">
       <nav class="nav">
         
-        <a class="page-header__link" href="">Web<span class="page-header__link--black">Studio</span></a>
+        <a class="logo" href="">Web<span class="logo__black">Studio</span></a>
         <ul class="list">
           <li class="list__item"><a class="nav__link" href="./index.html">Студія</a></li>
           <li class="list__item"><a class="nav__link nav__link--current" href="./portfolio.html">Портфоліо</a></li>
@@ -30,14 +30,14 @@
       <ul class="contacts">
         <li class="contacts__item">
           <a class="contacts__link-mail" href="">
-            <svg class="contacts__icon-mail">
+            <svg class="icon__email">
               <use href="./images/icons.svg#icon-envelope"></use>
             </svg>
             info@devstudio.com</a>
         </li>
         <li class="contacts__item">
-          <a class="page-header__phone" href="">
-            <svg class="contacts__icon-phone">
+          <a class="contacts__link-phone" href="">
+            <svg class="icon__phone">
               <use href="./images/icons.svg#icon-smartphone"></use>
             </svg>
             +38 096 111 11 11
@@ -52,166 +52,166 @@
     <section class="section-work section">
       <div class="container">
         <h1 class="visually-hidden"> Приклади робіт</h1>
-        <ul class="list items-buttons">
-          <li class="li-button">
+        <ul class="list list-buttons">
+          <li class="list-buttons__item">
             <button type="button" class="button-work">Усі</button>
           </li>
-          <li class="li-button">
+          <li class="list-buttons__item">
             <button type="button" class="button-work">Веб-сайти</button>
           </li>
-          <li class="li-button">
+          <li class="list-buttons__item">
             <button type="button" class="button-work">Додатки</button>
           </li>
-          <li class="li-button">
+          <li class="list-buttons__item">
             <button type="button" class="button-work">Дизайн</button>
           </li>
-          <li class="li-button">
+          <li class="list-buttons__item">
             <button type="button" class="button-work">Маркетинг</button>
           </li>
         </ul>
 
-        <ul class="items-works">
-          <li class="li-works">
+        <ul class="list-works">
+          <li class="list-works__item">
             <a class="card" href="">
-              <div class="effect">
-                <img src="./images/portfolio1.jpg" alt="Технокряк" width="370" />
-                <div class="work-effect">
-                  <p class="effect-p">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все
+              <div class="card__effect">
+                <img class = "card__image" src="./images/portfolio1.jpg" alt="Технокряк" width="370" />
+                <div class="work-card__effect">
+                  <p class="card__paragraph">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все
                     це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
                 </div>
               </div>
-              <div class="element-works">
+              <div class="name-works">
                 <h2 class="subtitle">Технокряк</h2>
-                <p class="element-works-p"> Веб-сайт</p>
+                <p class="name-works__paragraph"> Веб-сайт</p>
               </div>
             </a>
           </li>
-          <li class="li-works">
+          <li class="list-works__item">
             <a class="card" href="">
-              <div class="effect">
-                <img src="./images/portfolio2.jpg" alt="Постер New Orlean vs Golden Star" width="370" />
+              <div class="card__effect">
+                <img class = "card__image" src="./images/portfolio2.jpg" alt="Постер New Orlean vs Golden Star" width="370" />
 
-                <div class="work-effect">
-                  <p class="effect-p">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все
+                <div class="work-card__effect">
+                  <p class="card__paragraph">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все
                     це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
                 </div>
               </div>
-              <div class="element-works">
+              <div class="name-works">
                 <h2 class="subtitle">Постер New Orlean vs Golden Star</h2>
-                <p class="element-works-p"> Дизайн</p>
+                <p class="name-works__paragraph"> Дизайн</p>
               </div>
             </a>
           </li>
-          <li class="li-works">
+          <li class="list-works__item">
             <a class="card" href="">
-              <div class="effect">
-                <img src="./images/portfolio3.jpg" alt="Ресторан Seafood" width="370" />
+              <div class="card__effect">
+                <img class = "card__image" src="./images/portfolio3.jpg" alt="Ресторан Seafood" width="370" />
 
-                <div class="work-effect">
-                  <p class="effect-p">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все
+                <div class="work-card__effect">
+                  <p class="card__paragraph">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все
                     це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
                 </div>
               </div>
-              <div class="element-works">
+              <div class="name-works">
                 <h2 class="subtitle">Ресторан Seafood</h2>
-                <p class="element-works-p"> Додаток</p>
+                <p class="name-works__paragraph"> Додаток</p>
               </div>
             </a>
           </li>
-          <li class="li-works">
+          <li class="list-works__item">
             <a class="card" href="">
-              <div class="effect">
-                <img src="./images/portfolio4.jpg" alt="Проєкт Prime" width="370" />
+              <div class="card__effect">
+                <img class = "card__image" src="./images/portfolio4.jpg" alt="Проєкт Prime" width="370" />
 
-                <div class="work-effect">
-                  <p class="effect-p">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все
+                <div class="work-card__effect">
+                  <p class="card__paragraph">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все
                     це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
                 </div>
               </div>
-              <div class="element-works">
+              <div class="name-works">
                 <h2 class="subtitle">Проєкт Prime</h2>
-                <p class="element-works-p"> Маркетинг</p>
+                <p class="name-works__paragraph"> Маркетинг</p>
               </div>
             </a>
           </li>
-          <li class="li-works">
+          <li class="list-works__item">
             <a class="card" href="">
-              <div class="effect">
-                <img src="./images/portfolio5.jpg" alt="Проєкт Boxes" width="370" />
+              <div class="card__effect">
+                <img class = "card__image" src="./images/portfolio5.jpg" alt="Проєкт Boxes" width="370" />
 
-                <div class="work-effect">
-                  <p class="effect-p">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все
+                <div class="work-card__effect">
+                  <p class="card__paragraph">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все
                     це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
                 </div>
               </div>
-              <div class="element-works">
+              <div class="name-works">
                 <h2 class="subtitle">Проєкт Boxes</h2>
-                <p class="element-works-p"> Додаток</p>
+                <p class="name-works__paragraph"> Додаток</p>
               </div>
             </a>
           </li>
-          <li class="li-works">
+          <li class="list-works__item">
             <a class="card" href="">
-              <div class="effect">
-                <img src="./images/portfolio6.jpg" alt="Inspiration has no Borders" width="370" />
+              <div class="card__effect">
+                <img class = "card__image" src="./images/portfolio6.jpg" alt="Inspiration has no Borders" width="370" />
 
-                <div class="work-effect">
-                  <p class="effect-p">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все
+                <div class="work-card__effect">
+                  <p class="card__paragraph">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все
                     це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
                 </div>
               </div>
-              <div class="element-works">
+              <div class="name-works">
                 <h2 class="subtitle">Inspiration has no Borders</h2>
-                <p class="element-works-p"> Веб-сайт</p>
+                <p class="name-works__paragraph"> Веб-сайт</p>
               </div>
             </a>
           </li>
-          <li class="li-works">
+          <li class="list-works__item">
             <a class="card" href="">
-              <div class="effect">
-                <img src="./images/portfolio7.jpg" alt="Видання Limited Edition" width="370" />
+              <div class="card__effect">
+                <img class = "card__image" src="./images/portfolio7.jpg" alt="Видання Limited Edition" width="370" />
 
-                <div class="work-effect">
-                  <p class="effect-p">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все
+                <div class="work-card__effect">
+                  <p class="card__paragraph">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все
                     це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
                 </div>
               </div>
-              <div class="element-works">
+              <div class="name-works">
                 <h2 class="subtitle">Видання Limited Edition</h2>
-                <p class="element-works-p"> Дизайн</p>
+                <p class="name-works__paragraph"> Дизайн</p>
               </div>
             </a>
 
           </li>
-          <li class="li-works">
+          <li class="list-works__item">
             <a class="card" href="">
-              <div class="effect">
-                <img src="./images/portfolio8.jpg" alt="Проєкт LAB" width="370" />
-                <div class="work-effect">
-                  <p class="effect-p">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все
+              <div class="card__effect">
+                <img class = "card__image" src="./images/portfolio8.jpg" alt="Проєкт LAB" width="370" />
+                <div class="work-card__effect">
+                  <p class="card__paragraph">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все
                     це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
                 </div>
               </div>
-              <div class="element-works">
+              <div class="name-works">
                 <h2 class="subtitle">Проєкт LAB</h2>
-                <p class="element-works-p"> Маркетинг</p>
+                <p class="name-works__paragraph"> Маркетинг</p>
               </div>
 
             </a>
           </li>
-          <li class="li-works">
+          <li class="list-works__item">
             <a class="card" href="">
-              <div class="effect">
-                <img src="./images/portfolio9.jpg" alt="Growing Business" width="370" />
+              <div class="card__effect">
+                <img class = "card__image" src="./images/portfolio9.jpg" alt="Growing Business" width="370" />
 
-                <div class="work-effect">
-                  <p class="effect-p">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все
+                <div class="work-card__effect">
+                  <p class="card__paragraph">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все
                     це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
                 </div>
               </div>
-              <div class="element-works">
+              <div class="name-works">
                 <h2 class="subtitle">Growing Business</h2>
-                <p class="element-works-p"> Додаток</p>
+                <p class="name-works__paragraph"> Додаток</p>
               </div>
 
             </a>
@@ -228,52 +228,52 @@
 
     <div class="container container-footer">
 
-      <div class="footer-flex">
+      <div class="footer__block-flex">
 
-        <div class="footer-block1">
-          <a class="page-header__link" href="">Web<span class="logo-footer">Studio</span></a>
+        <div class="footer__block-logo-and-adress">
+          <a class="logo" href="">Web<span class="logo__white">Studio</span></a>
           <address class="address">
-            <ul class="items-address">
-              <li class="adress-element">
+            <ul class="adress__list">
+              <li class="adress__item">
                 <a href="" class="link-town">м. Київ, пр-т Лесі Українки, 26</a>
               </li>
-              <li class="adress-element">
+              <li class="adress__item">
                 <a href="" class="contacts__link-mailphone mail">info@devstudio.com</a>
               </li>
-              <li class="adress-element">
+              <li class="adress__item">
                 <a href="" class="contacts__link-mailphone phone">+38 096 111 11 11</a>
               </li>
             </ul>
           </address>
         </div>
-
-        <div class="footer-block2">
+        
+        <div class="footer__block-icons">
           <strong class="subtitle">Приєднуйтесь</strong>
-          <ul class="footer-list-icons">
+          <ul class="footer__list-icons">
             <li>
               <a href="">
-                <svg class="icon-footer">
+                <svg class="footer__icons">
                   <use href="./images/icons.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
             <li>
               <a href="">
-                <svg class="icon-footer">
+                <svg class="footer__icons">
                   <use href="./images/icons.svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
             <li>
               <a href="">
-                <svg class="icon-footer">
+                <svg class="footer__icons">
                   <use href="./images/icons.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
             <li>
               <a href="">
-                <svg class="icon-footer">
+                <svg class="footer__icons">
                   <use href="./images/icons.svg#icon-linkedin"></use>
                 </svg>
               </a>
@@ -285,20 +285,23 @@
        <!-- form -->
     
         <form class="form-footer">
-          <p class="footer-form-paragraph">Підпишіться на розсилку</p>
+          <p class="form-footer__paragraph">Підпишіться на розсилку</p>
 
-           <div class="mail-and-send"> 
+           <div class="form-footer__block-field-button"> 
 
-           <div class="form-field-newsletter">
-            <label class="info" >
-            <input class = "mail-newsletter " type="email" name="mail"  required placeholder="E-mail" />
+
+
+            <!-- RRRRRRRRRRRRRRRRRRRRRRR -->
+           <div class="form-footer__block-field">
+            <label class="mark" >
+            <input class = "mail__newsletter " type="email" name="mail"  required placeholder="E-mail" />
             </label>         
           </div> 
 
-          <button class = "send-footer-form" type="submit">            
+          <button class = "button-footer" type="submit">            
            <span class ="signature">Підписатися</span> 
-            <svg class="icon-send-footer" width="24" height="24">
-              <use class = "icon-send"  href="./images/icons.svg#icon-icon-send"></use>                 
+            <svg class="button-footer__icon" width="24" height="24">
+              <use class = "button-footer__icon-send"  href="./images/icons.svg#icon-icon-send"></use>                 
             </svg>  
           </button>
 
@@ -306,7 +309,7 @@
         </form>
       </div>
     </div>  
-
+ 
 
   </footer>
 
