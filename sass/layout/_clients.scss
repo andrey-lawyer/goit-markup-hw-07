@@ -1,0 +1,46 @@
+.section-сlients .subtitle {
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .section-сlients__list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .section-сlients__link {
+    border-radius: 4px;
+    width: 170px;
+    height: 92px;
+    border: 1px solid #afb1b8;
+    color: #afb1b8;
+  
+     display: flex;
+     justify-content: center;
+     align-items: center;
+  
+    transition-property: border, color; 
+    transition-duration: 250ms; 
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+   
+  }
+  
+  .section-сlients__link:hover, .section-сlients__link:focus {
+    border: 1px solid #2196f3;
+    color: #2196f3;
+  }
+  
+  .section-сlients__icon {
+    
+    width: 106px;
+    height: 60px;
+    fill: currentColor;
+   }

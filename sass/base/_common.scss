@@ -1,0 +1,38 @@
+body {
+    background-color: var(--secondary-text-background-color);
+  
+    color: var(--primary-text-color);
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+  }
+  
+  .list {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* котнейрер */
+  .container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  /* cекции */
+  .section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+  
+  /* цвет заголовков */
+  .subtitle {
+    color: var(--primary-black-color);
+    margin: 0;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+  }
+  

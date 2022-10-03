@@ -1,0 +1,32 @@
+.section-benefits__list .subtitle {
+    margin-bottom: 10px;
+  }
+  .list-works .subtitle {
+    margin-bottom: 20px;
+  }
+  
+  .section-benefits__paragraph {
+    line-height: 1.7;
+  }
+  .section-benefits__list {
+    gap: 30px;
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  .section-benefits__icon {
+    height: 70px;
+    width: 70px;
+  }
+  .section-benefits__block-icon {
+    height: 120px;
+    width: 270px;
+    background-color: #f5f4fa;
+    margin-bottom: 30px;
+    border-radius: 4px;
+     
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
