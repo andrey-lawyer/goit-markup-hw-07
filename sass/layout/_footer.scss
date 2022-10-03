@@ -52,9 +52,7 @@
     margin: 0 auto;
     margin-right: 10px;
   }
-  
-  
-  
+   
   .footer__block-flex {
     display: flex;
     align-items: baseline;
@@ -101,10 +99,10 @@
     transition-property: background-color; 
     transition-duration: 250ms; 
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover{background-color: #2196f3;};
+    &:hover{background-color: #2196f3;};
   }
-  .footer__list-link:hover, .footer__list-link:focus{
-    background-color: #2196f3;
-  }
+ 
   
   .phone, .mail{
     display: inline-block;
@@ -119,11 +117,11 @@
     text-decoration: none;
     transition-property: color; 
     transition-duration: 250ms; 
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);  
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover{color: var(--accent-color)};
+    &:focus{color: var(--accent-color)};  
   }
   
-  .contacts__link-mailphone:hover,.contacts__link-mailphone:focus{
-    color: var(--accent-color);}
   
   .link-town {
     display: inline-block;
@@ -137,14 +135,11 @@
     transition-property:  color; 
     transition-duration: 250ms; 
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover{color: var(--accent-color);};
+    &:focus{color: var(--accent-color);};
   }
   .adress__item:not(:last-child) {
     margin-bottom: 9px;
-  }
-  
-  .link-town:hover,
-  .link-town:focus {
-    color: var(--accent-color);
   }
   
   .logo__white {
@@ -179,12 +174,14 @@
    transition-property: transform, box-shadow; 
    transition-duration: 250ms; 
    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  .button-footer:hover, .button-footer:focus{
-    box-shadow:    4px 4px  #477fd8,
+   &:hover{ box-shadow:    4px 4px  #477fd8,
     8px 8px  #4579ce;
-    transform: scale(0.95);
+    transform: scale(0.95);};
+   &:focus{ box-shadow:    4px 4px  #477fd8,
+    8px 8px  #4579ce;
+    transform: scale(0.95);};
   }
+ 
   .mail__newsletter{
     padding-left: 16px ;
     width: 358px;
@@ -194,12 +191,11 @@
     border-radius: 4px;
     background-color: transparent;
     color: #FFFFFF;
+    &::placeholder{color:  rgba(255, 255, 255, 0.6)#000;
+      font-size: 16px;
+      line-height:1.25;};
   }
-  .mail__newsletter::placeholder{
-    color:  rgba(255, 255, 255, 0.6)#000;
-    font-size: 16px;
-    line-height:1.25;
-  }
+ 
   .form-footer__paragraph{
   font-weight: 700;
   font-size: 14px;

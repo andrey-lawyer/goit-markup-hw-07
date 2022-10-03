@@ -17,16 +17,20 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
-  }
-  .button-work:hover,
-  .button-work:focus,
-  .button-work:active {
-    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    &:hover{box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12), 0px 1px 2px rgba(0, 0, 0, 0.08),
       0px 3px 1px rgba(0, 0, 0, 0.1);
-  
     background-color: var(--accent-color);
-    color: var(--secondary-text-background-color);
+    color: var(--secondary-text-background-color);}
+    &:focus{box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12), 0px 1px 2px rgba(0, 0, 0, 0.08),
+      0px 3px 1px rgba(0, 0, 0, 0.1);
+    background-color: var(--accent-color);
+    color: var(--secondary-text-background-color);}
+    &:active{box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12), 0px 1px 2px rgba(0, 0, 0, 0.08),
+      0px 3px 1px rgba(0, 0, 0, 0.1);
+    background-color: var(--accent-color);
+    color: var(--secondary-text-background-color);}
   }
+  
    .list-works {
     list-style: none;
     display: flex;
@@ -92,14 +96,15 @@
     transition-property: box-shadow; 
     transition-duration: 250ms; 
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover{display: block;
+      box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
+        0px 1px 1px rgba(0, 0, 0, 0.12);}
+    &:focus{display: block;
+      box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
+        0px 1px 1px rgba(0, 0, 0, 0.12);}
   
   }
-  .card:hover,.card:focus{
-    display: block;
-    box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
-      0px 1px 1px rgba(0, 0, 0, 0.12);
-      
-  }
+  
    .card__effect {
     position: relative;
     overflow: hidden;

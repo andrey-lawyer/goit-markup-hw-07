@@ -90,9 +90,7 @@
     transition-property: color, background-color; 
     transition-duration: 250ms; 
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover{background-color: #2196f3;  color: #ffffff;};
+    &:focus{background-color: #2196f3;  color: #ffffff;};
   }
-  .employee-information__list a:hover, .employee-information__list a:focus {
-    
-    background-color: #2196f3;
-    color: #ffffff;
-  }
+  
