@@ -21,10 +21,8 @@
   transform: translate(-50%, -50%) scale(0.1);
 
 }
-
 .modal {
   position: absolute;
-  
   height: 581px;
   width: 528px;
  
@@ -35,17 +33,13 @@
 
   transform: translate(-50%, -50%) scale(1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  background-color: #fff;
-
-  
+  background-color: #fff; 
 }
 .modal__icon-button{
   display: block;
   width: 16px;
   height: 16px;
-  color: #000000;
-
- 
+  color: #000000; 
 }
 .modal__button{
   position: absolute;
@@ -81,7 +75,6 @@
 
 /* Form */
 
-
 .modal__form {
   color: #757575;
    padding: 40px; 
@@ -98,7 +91,6 @@
   margin-bottom: 4px;
   text-align:left;
 }
-
 
 .mark__comment {
   border-radius: 4px;
